@@ -4,17 +4,20 @@ import NavBarLogin from "./NavBarLogin";
 import { useAuth } from "../../contexts/AuthContext";
 import { useProduct } from "../../contexts/ProductContext";
 import { useNavigate } from "react-router-dom";
+import DropDown from "./DropDown";
+import { toast } from "react-toastify";
 const Navbar = () => {
-  const { isAuthenticated, user, logout } = useAuth();
+  const { isAuthenticated, logout } = useAuth();
   const { cart, clearCart } = useProduct();
   const handleOnClick = () => {
     logout();
+    toast("Logout successfully", { toastId: "toast" });
     clearCart();
   };
   const navigate = useNavigate();
   return (
-    <div className="bg-white border-2 border-[#D1FF99] p-4 m-4 rounded-lg flex flex-row">
-      <div className="basis-3/5">
+    <div className="bg-white border-2 border-[#D1FF99] p-4 m-4 rounded-lg flex md:flex-row flex-col">
+      <div className="basis-3/5 items-center justify-center flex">
         <img
           className="w-[200px] cursor-pointer"
           src="logo.png"
@@ -40,9 +43,7 @@ const Navbar = () => {
                 </span>
               )}
             </NavbarItem>
-            <NavBarLogin to="/" onClick={handleOnClick}>
-              {user.name}
-            </NavBarLogin>
+            <DropDown handleOnClick={handleOnClick} />
           </>
         )}
       </div>
