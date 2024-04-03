@@ -12,6 +12,7 @@ import Menu from "./pages/Menu";
 import { ToastContainer } from "react-toastify";
 import Products from "./data/Products";
 import ProductDetail from "./pages/ProductDetail";
+import Cart from "./pages/Cart";
 function App() {
   return (
     <>
@@ -25,6 +26,7 @@ function App() {
               <Route path="/signup" element={<SignUp />} />
               <Route path="/menu" element={<Menu />} />
               <Route path="*" element={<PageNotFound />} />
+              <Route path="/cart" element={<Cart />} />
               {Products.map((product) => (
                 <Route
                   key={product.name}
