@@ -2,6 +2,7 @@ import React from "react";
 import Products from "../data/Products";
 import { useProduct } from "../contexts/ProductContext";
 import { useNavigate } from "react-router-dom";
+import ProductCard from "../components/ProductCard";
 const Menu = () => {
   const { addToCart, cart, reduceQuantity } = useProduct();
   const navigate = useNavigate();
@@ -17,7 +18,8 @@ const Menu = () => {
             key={product.name}
             className="flex flex-col items-center justify-center border-2 border-black rounded-lg m-2 py-4"
           >
-            <img src={product.image} className="w-[100px]" alt="Product" />
+            <ProductCard product={product} />
+            {/* <img src={product.image} className="w-[100px]" alt="Product" /> */}
             <h1
               className="font-bold cursor-pointer hover:underline hover:underline-offset-4 duration-200 ease-out underline-offset-0"
               onClick={() => navigate(`/product/${product.name}`)}
