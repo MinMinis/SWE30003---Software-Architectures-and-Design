@@ -15,7 +15,7 @@ const Menu = () => {
           >
             <img src={product.image} className="w-[100px]" alt="Product" />
             <h1
-              className="font-bold hover:underline hover:underline-offset-4 duration-200 ease-out underline-offset-0"
+              className="font-bold cursor-pointer hover:underline hover:underline-offset-4 duration-200 ease-out underline-offset-0"
               onClick={() => navigate(`/product/${product.name}`)}
             >
               {product.name}

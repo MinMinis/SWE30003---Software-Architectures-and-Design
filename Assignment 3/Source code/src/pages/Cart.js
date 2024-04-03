@@ -2,9 +2,11 @@ import React from "react";
 import { useProduct } from "../contexts/ProductContext";
 import { useAuth } from "../contexts/AuthContext";
 import { toast } from "react-toastify";
+import { useNavigate } from "react-router-dom";
 const Cart = () => {
   const { cart, removeFromCart, addToCart, reduceQuantity } = useProduct();
   const { isAuthenticated } = useAuth();
+  const navigate = useNavigate();
   const handleCheckout = () => {
     toast.success("Checkout successful", { toastId: "checkout" });
   };
@@ -33,7 +35,12 @@ const Cart = () => {
                 <td className="flex items-center justify-center">
                   <img src={item.image} className="w-[100px]" alt={item.name} />
                 </td>
-                <td>{item.name}</td>
+                <td
+                  className="hover:underline underline-offset-0 hover:underline-offset-8 duration-300 ease-out cursor-pointer"
+                  onClick={() => navigate(`/product/${item.name}`)}
+                >
+                  {item.name}
+                </td>
                 <td>${item.price}</td>
                 <td>
                   <button
