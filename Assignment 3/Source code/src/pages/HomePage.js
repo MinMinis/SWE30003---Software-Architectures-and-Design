@@ -8,10 +8,12 @@ const HomePage = () => {
         <img src="./logo.png" className="w-[200px]" alt="Logo" />
       </div>
       <div className="flex items-center justify-center my-4">
-        <h1 className="font-bold text-5xl">ALL YOUR HEALTHY FOOD</h1>
+        <h1 className="font-bold text-4xl md:text-5xl">
+          ALL YOUR HEALTHY FOOD
+        </h1>
       </div>
       <div className="flex items-center justify-center my-4">
-        <p className="font-bold text-2xl">
+        <p className="font-bold text-xl md:text-2xl">
           Healthy and delicious dishes to your table
         </p>
       </div>

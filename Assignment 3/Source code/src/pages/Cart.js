@@ -9,8 +9,8 @@ const Cart = () => {
     toast.success("Checkout successful", { toastId: "checkout" });
   };
   return (
-    <div className="flex flex-col w-auto my-8">
-      <div className="my-2">
+    <div className="flex flex-col w-auto my-12">
+      <div className="mb-8">
         <h1 className="font-bold text-4xl text-center">Shopping Cart</h1>
       </div>
       {!isAuthenticated ? (
@@ -64,7 +64,7 @@ const Cart = () => {
               </tr>
             ))}
             <tr className="text-center font-bold text-2xl">
-              <td></td>
+              <td>{cart.length} items</td>
               <td></td>
               <td></td>
               <td>Total: </td>

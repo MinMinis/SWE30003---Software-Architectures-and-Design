@@ -6,7 +6,7 @@ const Menu = () => {
   const { addToCart } = useProduct();
   const navigate = useNavigate();
   return (
-    <div className="flex flex-col w-auto">
+    <div className="flex flex-col w-auto mb-24">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {Products.map((product) => (
           <div

@@ -8,8 +8,8 @@ const NavbarItem = ({ children, to }) => {
         <div
           className={
             isActive
-              ? "basis-1/3 text-lg mx-4 underline underline-offset-8 font-bold whitespace-nowrap"
-              : "basis-1/3 text-lg mx-4 hover:underline underline-offset-0 hover:underline-offset-8 duration-300 whitespace-nowrap ease-out"
+              ? "basis-1/3 text-xl md:text-2xl mx-4 underline underline-offset-8 font-bold whitespace-nowrap"
+              : "basis-1/3 text-xl md:text-2xl mx-4 hover:underline underline-offset-0 hover:underline-offset-8 duration-300 whitespace-nowrap ease-out"
           }
         >
           {children}
