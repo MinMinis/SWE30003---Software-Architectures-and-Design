@@ -23,8 +23,31 @@ const SignUp = () => {
   }, [isAuthenticated, navigate]);
   const handleSubmit = (e) => {
     e.preventDefault();
+
     if (Object.values(form).some((val) => val === "")) {
       toast.error("Please fill in all fields", { toastId: "toast" });
+      return;
+    }
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(form.email)) {
+      toast.error("Please enter a valid email address", { toastId: "toast" });
+      return;
+    }
+    // Check if first name contains only letters
+    const firstNameRegex = /^[A-Za-z]+$/;
+    if (!firstNameRegex.test(form.firstName)) {
+      toast.error("First name should contain only letters", {
+        toastId: "toast",
+      });
+      return;
+    }
+
+    // Check if last name contains only letters
+    const lastNameRegex = /^[A-Za-z]+$/;
+    if (!lastNameRegex.test(form.lastName)) {
+      toast.error("Last name should contain only letters", {
+        toastId: "toast",
+      });
       return;
     }
     login(form);
@@ -44,11 +67,13 @@ const SignUp = () => {
           onChange={handleOnChange}
         />
         <FormInput
+          type="email"
           placeholder={"Email"}
           name={"email"}
           onChange={handleOnChange}
         />
         <FormInput
+          type="password"
           placeholder={"Password"}
           name={"password"}
           onChange={handleOnChange}

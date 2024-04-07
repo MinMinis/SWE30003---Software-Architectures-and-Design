@@ -37,7 +37,7 @@ const DropDown = ({ handleOnClick }) => {
       </button>
 
       {isOpen && (
-        <div className="absolute bg-white top-36 flex flex-col items-start rounded-lg p-2 w-full border-2 border-black">
+        <div className="absolute bg-white top-36 flex flex-col items-start rounded-lg p-2 w-full border-2 border-black z-50">
           <div
             className="group p-2 w-full flex items-center justify-between font-bold text-lg rounded-lg tracking-wider border-4 border-transparent hover:border-white hover:bg-black duration-300 ease-out hover:text-white"
             onClick={() => setIsOpen(false)}

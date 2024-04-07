@@ -23,6 +23,13 @@ const Login = () => {
       toast.error("Please fill in all fields", { toastId: "toast" });
       return;
     }
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(form.email)) {
+      toast.error("Please enter a valid email address", {
+        toastId: "toast",
+      });
+      return;
+    }
     login(form);
   };
 
@@ -31,11 +38,13 @@ const Login = () => {
       <form className="w-1/2 border-2 border-[#D1FF99] flex flex-col">
         <label className="text-center text-4xl font-bold my-4">Log In</label>
         <FormInput
+          type="email"
           placeholder={"Email"}
           name={"email"}
           onChange={handleOnChange}
         />
         <FormInput
+          type="password"
           placeholder={"Password"}
           name={"password"}
           onChange={handleOnChange}

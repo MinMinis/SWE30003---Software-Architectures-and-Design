@@ -16,7 +16,7 @@ const Navbar = () => {
   };
   const navigate = useNavigate();
   return (
-    <div className="bg-white border-2 border-[#D1FF99] p-4 m-4 rounded-lg flex md:flex-row flex-col">
+    <div className="bg-white border-2 border-[#D1FF99] p-4 m-4 rounded-lg flex md:flex-row flex-col z-50">
       <div className="basis-3/5 items-center justify-center md:justify-start flex">
         <img
           className="w-[200px] cursor-pointer"
