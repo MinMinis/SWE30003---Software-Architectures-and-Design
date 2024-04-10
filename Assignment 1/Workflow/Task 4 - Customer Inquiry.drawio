@@ -1,0 +1,72 @@
+<mxfile host="Electron" modified="2024-02-20T07:35:39.892Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="kcnNtzniw6FlSeCE0bdX" version="21.6.8" type="device" pages="2">
+  <diagram name="Page-1" id="EER0Lj7f-fOtYTLKS08-">
+    <mxGraphModel dx="489" dy="1802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DXU0PHG1hyrNVABTsJqy-1" value="" style="endArrow=classic;html=1;rounded=0;startArrow=oval;startFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="DXU0PHG1hyrNVABTsJqy-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="-1010" as="sourcePoint" />
+            <mxPoint x="280" y="-950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DXU0PHG1hyrNVABTsJqy-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DXU0PHG1hyrNVABTsJqy-3" target="DXU0PHG1hyrNVABTsJqy-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DXU0PHG1hyrNVABTsJqy-3" value="Customer inquiry" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="220" y="-950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DXU0PHG1hyrNVABTsJqy-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DXU0PHG1hyrNVABTsJqy-5" target="DXU0PHG1hyrNVABTsJqy-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DXU0PHG1hyrNVABTsJqy-5" value="Navigate to the contact page" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="-850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DXU0PHG1hyrNVABTsJqy-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DXU0PHG1hyrNVABTsJqy-7" target="DXU0PHG1hyrNVABTsJqy-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DXU0PHG1hyrNVABTsJqy-7" value="Sale representative receives notification of the inquiry" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="-740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DXU0PHG1hyrNVABTsJqy-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DXU0PHG1hyrNVABTsJqy-9" target="DXU0PHG1hyrNVABTsJqy-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DXU0PHG1hyrNVABTsJqy-9" value="Sale presentative asks about customer needs and preferences" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="-650" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DXU0PHG1hyrNVABTsJqy-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DXU0PHG1hyrNVABTsJqy-11" target="DXU0PHG1hyrNVABTsJqy-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DXU0PHG1hyrNVABTsJqy-11" value="Sale presentative provide detail information about available products" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="-540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DXU0PHG1hyrNVABTsJqy-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DXU0PHG1hyrNVABTsJqy-13" target="DXU0PHG1hyrNVABTsJqy-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DXU0PHG1hyrNVABTsJqy-13" value="Encourage customer to make a purchasing decision by highlighting benefits" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="-440" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DXU0PHG1hyrNVABTsJqy-14" value="Close event" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="220" y="-300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DXU0PHG1hyrNVABTsJqy-15" value="" style="endArrow=oval;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endFill=1;" parent="1" source="DXU0PHG1hyrNVABTsJqy-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="-170" as="sourcePoint" />
+            <mxPoint x="280" y="-200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nSA1ybFDkTJpuleNaKav-1" value="End chat" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="270" y="-352" width="70" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="R9eF2cRFWYNl5CNsjf3q" name="Page-2">
+    <mxGraphModel dx="389" dy="702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

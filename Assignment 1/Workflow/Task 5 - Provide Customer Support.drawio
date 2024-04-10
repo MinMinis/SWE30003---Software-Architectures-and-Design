@@ -1,0 +1,61 @@
+<mxfile host="Electron" modified="2024-02-20T02:42:13.579Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="GCC6k_QUNnhKIQBA5RES" version="21.6.8" type="device">
+  <diagram name="Page-1" id="WTHKpDpfXnv-VWbj-I8-">
+    <mxGraphModel dx="488" dy="1802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t4DR1Jp5XmDNIPi-3Gqm-1" value="" style="endArrow=classic;html=1;rounded=0;startArrow=oval;startFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="t4DR1Jp5XmDNIPi-3Gqm-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="-1000" as="sourcePoint" />
+            <mxPoint x="550" y="-940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t4DR1Jp5XmDNIPi-3Gqm-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t4DR1Jp5XmDNIPi-3Gqm-3" target="t4DR1Jp5XmDNIPi-3Gqm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4DR1Jp5XmDNIPi-3Gqm-3" value="Provide customer support" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="490" y="-940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t4DR1Jp5XmDNIPi-3Gqm-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t4DR1Jp5XmDNIPi-3Gqm-5" target="t4DR1Jp5XmDNIPi-3Gqm-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4DR1Jp5XmDNIPi-3Gqm-5" value="Reach out for assistance via chat" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="-840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t4DR1Jp5XmDNIPi-3Gqm-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t4DR1Jp5XmDNIPi-3Gqm-7" target="t4DR1Jp5XmDNIPi-3Gqm-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4DR1Jp5XmDNIPi-3Gqm-7" value="Representative receives the inquiry and acknowledge receipt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="-740" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="t4DR1Jp5XmDNIPi-3Gqm-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t4DR1Jp5XmDNIPi-3Gqm-9" target="t4DR1Jp5XmDNIPi-3Gqm-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4DR1Jp5XmDNIPi-3Gqm-9" value="Representative investigate the issue or question" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="-640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t4DR1Jp5XmDNIPi-3Gqm-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t4DR1Jp5XmDNIPi-3Gqm-11" target="t4DR1Jp5XmDNIPi-3Gqm-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4DR1Jp5XmDNIPi-3Gqm-11" value="Representative responds professionally" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="-530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t4DR1Jp5XmDNIPi-3Gqm-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t4DR1Jp5XmDNIPi-3Gqm-13" target="t4DR1Jp5XmDNIPi-3Gqm-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4DR1Jp5XmDNIPi-3Gqm-13" value="Record interactions and records details of resolution provided." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="-430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t4DR1Jp5XmDNIPi-3Gqm-14" value="Close event" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="490" y="-320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t4DR1Jp5XmDNIPi-3Gqm-15" value="" style="endArrow=oval;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endFill=1;" edge="1" parent="1" source="t4DR1Jp5XmDNIPi-3Gqm-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="-160" as="sourcePoint" />
+            <mxPoint x="550" y="-190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
